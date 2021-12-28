@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "564587271513",
+    "project_id": "farmica-pak",
+    "storage_bucket": "farmica-pak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564587271513:android:9eb98037ff51588830a848",
+        "android_client_info": {
+          "package_name": "com.example.farmicapak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564587271513-ro8a7sg7crpp38l9d2q41ps7ahiucst5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farmicapak",
+            "certificate_hash": "ee751a061676f11e21791d83988ce49aac59df3b"
+          }
+        },
+        {
+          "client_id": "564587271513-vbcqmrj2md4qpudlbr1cf7ge9s86cgvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhurntWjM96tp6HCRLTzhVAHZIIDU0dh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564587271513-vbcqmrj2md4qpudlbr1cf7ge9s86cgvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

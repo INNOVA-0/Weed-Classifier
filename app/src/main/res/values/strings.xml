@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FARMICA-PAK</string>
+    <string name="forget_passwrod">Forgot your password</string>
+    <string name="exit">exit</string>
+    <string name="logout">logout</string>
+    <string name="browser_image">browse_image</string>
+    <string name="click_image">click_image</string>
+</resources>

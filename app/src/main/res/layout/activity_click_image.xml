@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".ClickImageActivity"
+   >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/classificationLabel"
+
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="50dp"
+            android:text=""
+            android:textStyle="bold"
+            android:onClick="detailsFromCamera"
+            android:textSize="20dp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/navigate_to_details_camera"
+            android:layout_width="40dp"
+           android:layout_marginTop="13dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/classifytext"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="-15dp"
+            android:layout_toEndOf="@+id/classifytext"
+            android:src="@drawable/forward_arrow"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ImageViewScan"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="4.5"
+        android:background="@drawable/backgroundwhite_1"
+        android:elevation="7dp"
+        android:contentDescription="TODO"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:text="Take Picture"
+        android:elevation="10dp"
+        android:background="@drawable/backgroundbutton_1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <Button
+        android:id="@+id/btncheckresult"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="10dp"
+        android:background="@drawable/backgroundbutton_1"
+        android:onClick="inference"
+        android:text="Check Result"
+
+        app:layout_constraintTop_toBottomOf="@+id/btnCamera"/>
+
+
+
+</LinearLayout>

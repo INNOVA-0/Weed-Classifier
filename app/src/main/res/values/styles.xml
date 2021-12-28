@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#0BB30D</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+<!--        <item name="android:windowAnimationStyle">@style/MyAnimations</item>-->
+    </style>
+
+    <style name="ActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="background">@drawable/action_bar_item_background</item>
+    </style>
+
+    <style name="toolbar_text_appearance">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ActionItem">
+        <item name="android:textSize">16dp</item>
+        <item name="android:drawablePadding">24dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#2196F3</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+<!--    <style name="MyAnimations" parent="@android:style/Animation.Activity">-->
+<!--        <item name="android:activityOpenEnterAnimation">@anim/slide_up</item>-->
+<!--        <item name="android:activityOpenExitAnimation">@anim/slide_down</item>-->
+<!--        <item name="android:activityCloseEnterAnimation">@anim/anim_fade_out</item>-->
+<!--        <item name="android:activityCloseExitAnimation">@anim/anim_fade_in</item>-->
+<!--    </style>-->
+
+</resources>

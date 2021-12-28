@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeedDetailsActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Detected Weed Name Will Appear Here"
+        android:textStyle="bold"
+        android:id="@+id/weedName"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7">
+
+        <TextView
+
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:text="Detected Weed Details"
+            android:textStyle="bold"
+            android:id="@+id/weedDescription"
+            />
+    </ScrollView>
+
+</LinearLayout>
